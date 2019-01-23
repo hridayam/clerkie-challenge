@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		347F04ED0489894BBEDCF6AC /* Pods_Clerkie_Hridayam_Bakshi_Coding_Challenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43F38EAD9A95A05332C47771 /* Pods_Clerkie_Hridayam_Bakshi_Coding_Challenge.framework */; };
+		D4739D9D21F57B2500B1411D /* Clerkie_Hridayam_Bakshi_Coding_Challenge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D4739D9B21F57B2500B1411D /* Clerkie_Hridayam_Bakshi_Coding_Challenge.xcdatamodeld */; };
+		D4739DA021F57B5500B1411D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4739D9F21F57B5500B1411D /* CoreData.framework */; };
+		D4739DA721F5BD5C00B1411D /* Users+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4739DA521F5BD5C00B1411D /* Users+CoreDataClass.swift */; };
+		D4739DA821F5BD5C00B1411D /* Users+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4739DA621F5BD5C00B1411D /* Users+CoreDataProperties.swift */; };
+		D4739DAD21F6FE9500B1411D /* Consts.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4739DAC21F6FE9500B1411D /* Consts.swift */; };
+		D4739DAF21F706B100B1411D /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4739DAE21F706B100B1411D /* ChatVC.swift */; };
+		D4739DB621F70A4000B1411D /* Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4739DB521F70A4000B1411D /* Auth.swift */; };
+		D4739DBA21F7331E00B1411D /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4739DB921F7331E00B1411D /* MessageCell.xib */; };
+		D4739DBC21F735CA00B1411D /* CustomMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4739DBB21F735CA00B1411D /* CustomMessageCell.swift */; };
+		D4739DBE21F7DDEF00B1411D /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4739DBD21F7DDEF00B1411D /* Message.swift */; };
+		D4A44ABB21EF3ED9001ECD87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A44ABA21EF3ED9001ECD87 /* AppDelegate.swift */; };
+		D4A44ABD21EF3ED9001ECD87 /* AuthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A44ABC21EF3ED9001ECD87 /* AuthVC.swift */; };
+		D4A44AC021EF3ED9001ECD87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4A44ABE21EF3ED9001ECD87 /* Main.storyboard */; };
+		D4A44AC221EF3EDB001ECD87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4A44AC121EF3EDB001ECD87 /* Assets.xcassets */; };
+		D4A44AC521EF3EDB001ECD87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4A44AC321EF3EDB001ECD87 /* LaunchScreen.storyboard */; };
+		D4D060B221EF506200E841D3 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D060B121EF506200E841D3 /* GradientView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		43F38EAD9A95A05332C47771 /* Pods_Clerkie_Hridayam_Bakshi_Coding_Challenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Clerkie_Hridayam_Bakshi_Coding_Challenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5AABA5EC1F09BD23E498985 /* Pods-Clerkie Hridayam Bakshi Coding Challenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clerkie Hridayam Bakshi Coding Challenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-Clerkie Hridayam Bakshi Coding Challenge/Pods-Clerkie Hridayam Bakshi Coding Challenge.release.xcconfig"; sourceTree = "<group>"; };
+		D4739D9C21F57B2500B1411D /* Clerkie_Hridayam_Bakshi_Coding_Challenge.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Clerkie_Hridayam_Bakshi_Coding_Challenge.xcdatamodel; sourceTree = "<group>"; };
+		D4739D9F21F57B5500B1411D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D4739DA521F5BD5C00B1411D /* Users+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Users+CoreDataClass.swift"; sourceTree = "<group>"; };
+		D4739DA621F5BD5C00B1411D /* Users+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Users+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D4739DAC21F6FE9500B1411D /* Consts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Consts.swift; sourceTree = "<group>"; };
+		D4739DAE21F706B100B1411D /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
+		D4739DB521F70A4000B1411D /* Auth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auth.swift; sourceTree = "<group>"; };
+		D4739DB921F7331E00B1411D /* MessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
+		D4739DBB21F735CA00B1411D /* CustomMessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMessageCell.swift; sourceTree = "<group>"; };
+		D4739DBD21F7DDEF00B1411D /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		D4A44AB721EF3ED9001ECD87 /* Clerkie Hridayam Bakshi Coding Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Clerkie Hridayam Bakshi Coding Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4A44ABA21EF3ED9001ECD87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D4A44ABC21EF3ED9001ECD87 /* AuthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthVC.swift; sourceTree = "<group>"; };
+		D4A44ABF21EF3ED9001ECD87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D4A44AC121EF3EDB001ECD87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4A44AC421EF3EDB001ECD87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D4A44AC621EF3EDB001ECD87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4D060B121EF506200E841D3 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		E5B2F87DFDAC16AD7DC189E7 /* Pods-Clerkie Hridayam Bakshi Coding Challenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clerkie Hridayam Bakshi Coding Challenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Clerkie Hridayam Bakshi Coding Challenge/Pods-Clerkie Hridayam Bakshi Coding Challenge.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4A44AB421EF3ED9001ECD87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4739DA021F57B5500B1411D /* CoreData.framework in Frameworks */,
+				347F04ED0489894BBEDCF6AC /* Pods_Clerkie_Hridayam_Bakshi_Coding_Challenge.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		482B2102FC2D681EC9B89ADE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5B2F87DFDAC16AD7DC189E7 /* Pods-Clerkie Hridayam Bakshi Coding Challenge.debug.xcconfig */,
+				A5AABA5EC1F09BD23E498985 /* Pods-Clerkie Hridayam Bakshi Coding Challenge.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D4739D9E21F57B5400B1411D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4739D9F21F57B5500B1411D /* CoreData.framework */,
+				43F38EAD9A95A05332C47771 /* Pods_Clerkie_Hridayam_Bakshi_Coding_Challenge.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4A44AAE21EF3ED9001ECD87 = {
+			isa = PBXGroup;
+			children = (
+				D4A44AB921EF3ED9001ECD87 /* Clerkie Hridayam Bakshi Coding Challenge */,
+				D4A44AB821EF3ED9001ECD87 /* Products */,
+				D4739D9E21F57B5400B1411D /* Frameworks */,
+				482B2102FC2D681EC9B89ADE /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		D4A44AB821EF3ED9001ECD87 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4A44AB721EF3ED9001ECD87 /* Clerkie Hridayam Bakshi Coding Challenge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4A44AB921EF3ED9001ECD87 /* Clerkie Hridayam Bakshi Coding Challenge */ = {
+			isa = PBXGroup;
+			children = (
+				D4D060BA21F0914A00E841D3 /* Singleton */,
+				D4D060B521F0612600E841D3 /* ViewController */,
+				D4D060B421F0612000E841D3 /* View */,
+				D4D060B321F0611800E841D3 /* Model */,
+				D4A44AC121EF3EDB001ECD87 /* Assets.xcassets */,
+				D4A44AC621EF3EDB001ECD87 /* Info.plist */,
+			);
+			path = "Clerkie Hridayam Bakshi Coding Challenge";
+			sourceTree = "<group>";
+		};
+		D4D060B321F0611800E841D3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D4739D9B21F57B2500B1411D /* Clerkie_Hridayam_Bakshi_Coding_Challenge.xcdatamodeld */,
+				D4739DA521F5BD5C00B1411D /* Users+CoreDataClass.swift */,
+				D4739DA621F5BD5C00B1411D /* Users+CoreDataProperties.swift */,
+				D4739DBD21F7DDEF00B1411D /* Message.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D4D060B421F0612000E841D3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D4739DB921F7331E00B1411D /* MessageCell.xib */,
+				D4D060B121EF506200E841D3 /* GradientView.swift */,
+				D4A44AC321EF3EDB001ECD87 /* LaunchScreen.storyboard */,
+				D4A44ABE21EF3ED9001ECD87 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D4D060B521F0612600E841D3 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D4A44ABC21EF3ED9001ECD87 /* AuthVC.swift */,
+				D4739DAE21F706B100B1411D /* ChatVC.swift */,
+				D4739DBB21F735CA00B1411D /* CustomMessageCell.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		D4D060BA21F0914A00E841D3 /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				D4A44ABA21EF3ED9001ECD87 /* AppDelegate.swift */,
+				D4739DAC21F6FE9500B1411D /* Consts.swift */,
+				D4739DB521F70A4000B1411D /* Auth.swift */,
+			);
+			path = Singleton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4A44AB621EF3ED9001ECD87 /* Clerkie Hridayam Bakshi Coding Challenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4A44AC921EF3EDB001ECD87 /* Build configuration list for PBXNativeTarget "Clerkie Hridayam Bakshi Coding Challenge" */;
+			buildPhases = (
+				690054DC144D53C9AD250F45 /* [CP] Check Pods Manifest.lock */,
+				D4A44AB321EF3ED9001ECD87 /* Sources */,
+				D4A44AB421EF3ED9001ECD87 /* Frameworks */,
+				D4A44AB521EF3ED9001ECD87 /* Resources */,
+				DD9C9B5931C502B34303C29A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Clerkie Hridayam Bakshi Coding Challenge";
+			productName = "Clerkie Hridayam Bakshi Coding Challenge";
+			productReference = D4A44AB721EF3ED9001ECD87 /* Clerkie Hridayam Bakshi Coding Challenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4A44AAF21EF3ED9001ECD87 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "hridayam bakshi";
+				TargetAttributes = {
+					D4A44AB621EF3ED9001ECD87 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = D4A44AB221EF3ED9001ECD87 /* Build configuration list for PBXProject "Clerkie Hridayam Bakshi Coding Challenge" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D4A44AAE21EF3ED9001ECD87;
+			productRefGroup = D4A44AB821EF3ED9001ECD87 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4A44AB621EF3ED9001ECD87 /* Clerkie Hridayam Bakshi Coding Challenge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4A44AB521EF3ED9001ECD87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4739DBA21F7331E00B1411D /* MessageCell.xib in Resources */,
+				D4A44AC521EF3EDB001ECD87 /* LaunchScreen.storyboard in Resources */,
+				D4A44AC221EF3EDB001ECD87 /* Assets.xcassets in Resources */,
+				D4A44AC021EF3ED9001ECD87 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		690054DC144D53C9AD250F45 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Clerkie Hridayam Bakshi Coding Challenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD9C9B5931C502B34303C29A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Clerkie Hridayam Bakshi Coding Challenge/Pods-Clerkie Hridayam Bakshi Coding Challenge-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/KeychainAccess/KeychainAccess.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KeychainAccess.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Clerkie Hridayam Bakshi Coding Challenge/Pods-Clerkie Hridayam Bakshi Coding Challenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4A44AB321EF3ED9001ECD87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4739D9D21F57B2500B1411D /* Clerkie_Hridayam_Bakshi_Coding_Challenge.xcdatamodeld in Sources */,
+				D4A44ABD21EF3ED9001ECD87 /* AuthVC.swift in Sources */,
+				D4A44ABB21EF3ED9001ECD87 /* AppDelegate.swift in Sources */,
+				D4739DA721F5BD5C00B1411D /* Users+CoreDataClass.swift in Sources */,
+				D4739DB621F70A4000B1411D /* Auth.swift in Sources */,
+				D4739DAF21F706B100B1411D /* ChatVC.swift in Sources */,
+				D4739DA821F5BD5C00B1411D /* Users+CoreDataProperties.swift in Sources */,
+				D4739DBC21F735CA00B1411D /* CustomMessageCell.swift in Sources */,
+				D4739DBE21F7DDEF00B1411D /* Message.swift in Sources */,
+				D4739DAD21F6FE9500B1411D /* Consts.swift in Sources */,
+				D4D060B221EF506200E841D3 /* GradientView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D4A44ABE21EF3ED9001ECD87 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4A44ABF21EF3ED9001ECD87 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D4A44AC321EF3EDB001ECD87 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4A44AC421EF3EDB001ECD87 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D4A44AC721EF3EDB001ECD87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D4A44AC821EF3EDB001ECD87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4A44ACA21EF3EDB001ECD87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5B2F87DFDAC16AD7DC189E7 /* Pods-Clerkie Hridayam Bakshi Coding Challenge.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NDR2AVME39;
+				INFOPLIST_FILE = "Clerkie Hridayam Bakshi Coding Challenge/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Clerkie-Hridayam-Bakshi-Coding-Challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D4A44ACB21EF3EDB001ECD87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5AABA5EC1F09BD23E498985 /* Pods-Clerkie Hridayam Bakshi Coding Challenge.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NDR2AVME39;
+				INFOPLIST_FILE = "Clerkie Hridayam Bakshi Coding Challenge/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Clerkie-Hridayam-Bakshi-Coding-Challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4A44AB221EF3ED9001ECD87 /* Build configuration list for PBXProject "Clerkie Hridayam Bakshi Coding Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4A44AC721EF3EDB001ECD87 /* Debug */,
+				D4A44AC821EF3EDB001ECD87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4A44AC921EF3EDB001ECD87 /* Build configuration list for PBXNativeTarget "Clerkie Hridayam Bakshi Coding Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4A44ACA21EF3EDB001ECD87 /* Debug */,
+				D4A44ACB21EF3EDB001ECD87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D4739D9B21F57B2500B1411D /* Clerkie_Hridayam_Bakshi_Coding_Challenge.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D4739D9C21F57B2500B1411D /* Clerkie_Hridayam_Bakshi_Coding_Challenge.xcdatamodel */,
+			);
+			currentVersion = D4739D9C21F57B2500B1411D /* Clerkie_Hridayam_Bakshi_Coding_Challenge.xcdatamodel */;
+			path = Clerkie_Hridayam_Bakshi_Coding_Challenge.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D4A44AAF21EF3ED9001ECD87 /* Project object */;
+}
